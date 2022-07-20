@@ -17,7 +17,7 @@
 数据集预计会有HuggingFace数据集和普通的csv，json数据文件三种形式~
 
 # 模型细节
-由于我们希望从一个给定的主题进行生成（也就是说用几个字作为prompt进行引导），所以任务是conditional language modeling（conditional LM），当前最优的方法是encoder-decoder Transformer-based预训练模型
+由于我们希望从一个给定的主题进行生成（也就是说用几个字作为prompt进行引导），所以任务是conditional language modeling（conditional LM），当前最优的方法是encoder-decoder Transformer-based预训练模型。
 
 由于数据是中文的，所以我们要找一个中文的seq2seq模型：我选择用HuggingFace的mT5模型。
 
@@ -41,6 +41,6 @@ repo主是一名学生，所以这个项目肯定是断断续续的，收集到�
 # 结语
 东方自很久以前就是一个优秀的ACGN游戏同人社区了，除了官作之外，铺天盖地的二创：STG或其它游戏，动画，音乐，动漫，插图，MMD，油库里，鬼畜，其他二创视频...应有尽有，私以为这种社区驱动的文化与开源软件宗旨不谋而合。
 
-但是在几个月之前看到的一个[B站视频](https://www.bilibili.com/video/BV1fa411r7xM)开拓了我的想法：东方的社区文化是欢迎任何形式的创作的——因此这吸引我来做一点自己的工作，
+但是在几个月之前看到的一个[B站视频](https://www.bilibili.com/video/BV1fa411r7xM)开拓了我的想法：东方的社区文化是欢迎任何形式的创作的——因此这吸引我来做一点自己的工作。
 
 让我们一起来建设更多样的东方社区吧！
