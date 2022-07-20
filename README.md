@@ -19,7 +19,7 @@
 # 模型细节
 由于我们希望从一个给定的主题进行生成（也就是说用几个字作为prompt进行引导），所以任务是conditional language modeling（conditional LM），当前最优的方法是encoder-decoder Transformer-based预训练模型
 
-由于数据是中文的，所以我们要找一个中文的seq2seq模型：我选择用
+由于数据是中文的，所以我们要找一个中文的seq2seq模型：我选择用HuggingFace的mT5模型。
 
 # 模型性能以及结果展示
 
