@@ -22,7 +22,7 @@
 由于数据是中文的，所以我们要找一个带有可以处理中文的tokenizer的seq2seq模型：我选择用HuggingFace的mT5模型。
 
 ## 项目进度
-数据：红魔乡music room
+数据：红魔乡，妖妖梦music room
 
 模型：无
 
